@@ -35,7 +35,7 @@ print(re.split(r'\+|\-', '3x+4y-12x^2+7'))
 
 # Match and Search - are useful if you want to know if a match occurs 
 # ...difference is match only check if the beginning of the string ...
-# matches the pattern while searxh checks the entire string -->
+# matches the pattern while search checks the entire string -->
 
 if re.match(r'.com', 'johndoe@email.com'):
     print('Match found at the beginning!')
